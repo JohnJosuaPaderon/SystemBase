@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "netcore3", "netcore3", "{EC880E6D-151E-4EEA-9641-9669EE814DEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemBase", "netcore3\SystemBase\SystemBase.csproj", "{6315724C-48AE-4895-A3EA-D33820F6BA57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6315724C-48AE-4895-A3EA-D33820F6BA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6315724C-48AE-4895-A3EA-D33820F6BA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6315724C-48AE-4895-A3EA-D33820F6BA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6315724C-48AE-4895-A3EA-D33820F6BA57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6315724C-48AE-4895-A3EA-D33820F6BA57} = {EC880E6D-151E-4EEA-9641-9669EE814DEE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D85E11F1-66F4-4271-8E7E-FDD89AEFB3E9}
+	EndGlobalSection
+EndGlobal
