@@ -4,7 +4,7 @@ namespace SystemBase.Security.Entities
 {
     public partial class User
     {
-        public sealed class SearchModel
+        public sealed class SearchModel : PaginationModel
         {
             public string FilterText { get; set; }
             public bool? IsActive { get; set; }

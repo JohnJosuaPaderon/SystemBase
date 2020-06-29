@@ -6,7 +6,7 @@ namespace SystemBase.Security.Entities
     {
         public sealed class SearchResult : PaginationResult
         {
-            public IList<Platform> ApplicationPlatforms { get; set; } = new List<Platform>();
+            public IList<Platform> Platforms { get; set; } = new List<Platform>();
         }
     }
 }

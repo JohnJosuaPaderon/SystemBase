@@ -25,6 +25,12 @@ namespace SystemBase.Security
             .AddTransient<ISavePermission, SavePermission>()
             .AddTransient<ISavePermissionScope, SavePermissionScope>()
             .AddTransient<ISavePlatform, SavePlatform>()
-            .AddTransient<ISaveUser, SaveUser>();
+            .AddTransient<ISaveUser, SaveUser>()
+            .AddTransient<ISearchApplication, SearchApplication>()
+            .AddTransient<ISearchModule, SearchModule>()
+            .AddTransient<ISearchPermission, SearchPermission>()
+            .AddTransient<ISearchPermissionScope, SearchPermissionScope>()
+            .AddTransient<ISearchPlatform, SearchPlatform>()
+            .AddTransient<ISearchUser, ISearchUser>();
     }
 }

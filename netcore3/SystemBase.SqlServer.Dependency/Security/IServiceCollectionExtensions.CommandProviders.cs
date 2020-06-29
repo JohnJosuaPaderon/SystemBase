@@ -31,6 +31,12 @@ namespace SystemBase.Security
             .AddSingleton<SaveUserApplicationCommandProvider>()
             .AddSingleton<SaveUserCommandProvider>()
             .AddSingleton<SaveUserModuleCommandProvider>()
-            .AddSingleton<SaveUserPermissionCommandProvider>();
+            .AddSingleton<SaveUserPermissionCommandProvider>()
+            .AddSingleton<SearchApplicationCommandProvider>()
+            .AddSingleton<SearchModuleCommandProvider>()
+            .AddSingleton<SearchPermissionCommandProvider>()
+            .AddSingleton<SearchPermissionScopeCommandProvider>()
+            .AddSingleton<SearchPlatformCommandProvider>()
+            .AddSingleton<SearchUserCommandProvider>();
     }
 }
