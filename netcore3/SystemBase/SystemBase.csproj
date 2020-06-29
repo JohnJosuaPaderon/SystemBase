@@ -1,15 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Security\Processes\" />
+    <None Remove="Security\Entities\SystemModule.cs~RF9e0186.TMP" />
+    <None Remove="Security\Entities\SystemPlatform.SaveModel.cs~RF126fc49e.TMP" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="SorschiaX" Version="0.1.0-pre" />
+    <PackageReference Include="SorschiaX" Version="0.2.0-pre" />
   </ItemGroup>
 
 </Project>

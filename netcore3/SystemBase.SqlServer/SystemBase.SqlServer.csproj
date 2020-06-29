@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>SystemBase</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Security\CommandProviders\SaveUserApplicationCommandProvider.cs~RF1706c324.TMP" />
+    <None Remove="Security\Processes\SaveModule.cs~RF12564873.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SorschiaX.SqlServer" Version="0.2.0-pre" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SystemBase\SystemBase.csproj" />
+  </ItemGroup>
+
+</Project>
